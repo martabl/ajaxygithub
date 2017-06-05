@@ -8,16 +8,26 @@
   <body>
 
     <h2>Buscador de usuarios de Github</h2>
-    <input type="text" name="" value="" placeholder="Nombre">
-    <button type="button" name="button">Buscar</button>
+
+    <input id="js-input-name" type="text" name="" value="" placeholder="Nombre">
+    <button id="js-button" class="button" type="button" name="button">Buscar</button>
+
     <h3>Resultados</h3>
+
+<div id="js-userContainer" class="userContainer">
+
     <p><strong>Nombre</strong></p>
-    <p></p>
+    <p id="js-user-name"></p>
+
     <p><strong>Foto</strong></p>
-    <img src="" alt="Foto de usuario de Github">
+    <img id="js-user-image" class="userPhoto" alt="Foto de usuario de Github">
+
     <p><strong>Número de repositorios</strong></p>
-    <p></p>
+    <p id="js-user-repositories"></p>
+
+</div>
 
     <script type="text/javascript" src='main.js'></script>
+
   </body>
 </html>
